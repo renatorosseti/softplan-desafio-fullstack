@@ -79,3 +79,5 @@ Em caso de dúvidas, envie um email para [g_cpa_squad_produto@softplan.com.br](m
 
 
 **Até breve**
+
+Primeiro commit: testando o git.
