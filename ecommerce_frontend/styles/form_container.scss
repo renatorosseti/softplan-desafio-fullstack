@@ -1,0 +1,154 @@
+html {
+    overflow-y: auto;
+    height: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+#ahg-daily-app {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+// .company-logo {
+//     background-image: url('/imagens/daily/brand_color.svg');
+//     background-repeat: no-repeat;
+//     background-size: 200px, 56px;
+//     background-position: center 30px;
+// }
+
+.login-container {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .login-header {
+        width: 100%;
+        flex: 1 0 0;
+    }
+
+    .login-wrapper {
+        flex: 1 0 0;
+        flex-direction: row;
+        align-items: center;
+
+        .login-box {
+            padding: 90px 30px 25px 15px;
+            border-radius: 4px;
+            background-color: rgba(255,255,255,0.5);
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            font-family: 'Open Sans', sans-serif;
+            text-align: justify;
+
+            form {
+                height: 100%;
+            }
+        }
+    }
+
+    .login-footer {
+        width: 100%;
+        flex: 1 0 0;
+    }
+}
+
+.step-title {
+    padding-left: 20px;
+    text-align: center;
+    color: #3F3F4D;
+    p {
+        font-size: 0.95rem;
+    }
+}
+
+.full-width {
+    width: 100%;
+}
+
+.step-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .step-container {
+        padding: 10px 10px 10px 24px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .step-controls {
+            width: 100%;
+        }
+    }
+
+    .step-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 10px 15px 8px;
+    }
+
+    .step-button-center {
+        display: flex;
+        justify-content:flex-end;
+        padding: 15px 10px 15px 8px;
+    }
+}
+
+.step-form-lean {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .step-container-center {
+        padding: 10px 10px 10px 24px;
+        justify-content: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .step-controls {
+            width: 100%;
+        }
+    }
+
+    .step-button-center {
+        display: flex;
+        justify-content:flex-end;
+        padding: 15px 10px 15px 8px;
+    }
+}
+
+.progress-load {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(200,200,200,0.7);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

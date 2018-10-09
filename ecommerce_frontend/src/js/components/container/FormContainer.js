@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Input from "../presentational/Input";
+import InputText from "../presentational/InputText";
+import VerifyAuthStep from "../presentational/VerifyAuthStep";
+import Button from '@material-ui/core/Button';
 class FormContainer extends Component {
   constructor() {
     super();
@@ -16,14 +18,8 @@ class FormContainer extends Component {
     const { seo_title } = this.state;
     return (
       <form id="article-form">
-        <Input
-          text="Nome"
-          label="label_name"
-          type="text"
-          id="label_name"
-          value={seo_title}
-          handleChange={this.handleChange}
-        />
+      <VerifyAuthStep         />
+
       </form>
     );
   }
